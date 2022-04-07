@@ -1,0 +1,76 @@
+html,body{
+    background-color: rgb(194, 194, 188);
+    font-family: 'ubuntu',sans-serif;
+    overflow-x:hidden !important ;
+    margin: 0px !important;
+    padding: 0px !important;
+
+}
+
+.header{
+
+    width: auto;
+    height: 55px;
+    background-color: rgb(248, 245, 242);
+    border: 1px  solid black;
+}
+
+.personal{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15vw 0 10vw;
+    height: 100vh;
+    margin-left: 53px;
+}
+.personal img{
+    width: 24vw;
+    border-radius: 14px;
+    box-shadow: 0 19px 38px  rgb(131, 128, 128);
+}
+.personal-text h2{
+    font-size: 4.5vh;
+    margin: 0 !important;
+
+}
+.personal-text h3{
+    font-size: 4vh;
+    margin: 0 !important;
+}
+
+.personal-text .icon{
+    width: 4vw;
+    border-radius: 4px;
+    box-shadow: 0 19px 38px  rgb(131, 128, 128);
+    
+}
+
+
+.educational-text h3{
+    font-size: 4.5vh;
+    margin: 0 !important;
+
+}
+.educational-text h4{
+    font-size: 4vh;
+    opacity: 0.7;
+}
+.educational img{
+    width: 24vw;
+    border-radius: 14px;
+    box-shadow: 0 19px 38px  rgb(131, 128, 128);
+
+}
+
+.educational{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15vw 0 10vw;
+    height: 100vh;
+    margin-left: 53px;
+
+}

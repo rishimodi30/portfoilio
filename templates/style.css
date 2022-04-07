@@ -1,0 +1,214 @@
+
+html,body{
+    background-color: rgb(194, 194, 188);
+    font-family: 'ubuntu',sans-serif;
+    overflow-x:hidden !important ;
+    margin: 0px !important;
+    padding: 0px !important;
+
+}
+
+/*==============----------------navigation bar-----------------=====================*/
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(141, 138, 138, 0.1);
+
+    
+}
+.nav .logo img{
+    width: 4vw;
+   margin-left: 12px;
+}
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(69, 97, 81);
+    text-decoration: none;
+
+}
+.nav .links{
+    margin-right: 675px;
+}
+
+/*=====================------------------ details--------------=====================*/
+
+
+.details{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15vw 0 10vw;
+    height: 100vh;
+    margin-left: 53px;
+}
+.details-text h1{
+    font-size: 13vh;
+    margin: 0 !important;
+
+}
+.details-text h3{
+    margin: 6px !important;
+    font-size:20px;
+    opacity: 0.5;
+    line-height: 30px;
+
+}
+.details-text .btn{
+    width: 6vw;
+    margin-top: 30px;
+    font-size: 1.2vw;
+    padding: 14px 20px 14px 20px;
+    background-color:  rgb(156, 153, 153);
+    color: azure;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.details-text .btn a{
+    font-size:  1.2vw;
+    color:rgb(39, 37, 37);
+    text-decoration: solid;
+}
+
+.details .image  img{
+    width: 24vw;
+    border-bottom-left-radius: 175px;
+    border-bottom-right-radius: 175px;
+    box-shadow: 0 19px 38px  rgb(131, 128, 128);
+}
+
+.description p{
+
+    
+    font-size: 2vw;
+    text-align: center;
+    opacity: 0.8;
+    padding: 5px;
+    
+} 
+.description .paragraph{
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.details-text .btn:hover{
+background-color:  #8b8787;
+}
+
+/*================--------------cards-------------====================*/
+
+
+.infoSection{
+    height: 600px;
+}
+
+
+
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infoCards .card{
+    position: relative;
+    height: 360px;
+    width: 350px;
+    background: rgb(226, 226, 226);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.09);
+    border-radius: 14px;
+}
+.infoCards .one .cardoneImg{
+    
+    
+    width: 180px;
+    padding: 75px;
+    padding-bottom: 33px;
+    
+}
+.infoCards .two .cardtwoImg{
+    
+    width: 158px;
+    padding: 96px;
+    padding-bottom: 40px
+    
+}
+.infoCards .three .cardthreeImg{
+    
+    width: 200px;
+    padding: 75px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.cardContent{
+    padding: 0 20px;
+}
+
+.cardContent .cardBtn{
+    position: absolute;
+    right: 31%;
+    padding: 10px;
+    background-color: rgb(156, 153, 153);
+    width: 120px;
+    height: 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+
+.cardContent .cardBtn:hover{
+  background-color: #8b8787;
+}
+
+.cardContent .cardBtn .cardIcon{
+    position: relative;
+    top:0px;
+    left:0px;
+    width: 16px;
+}
+
+
+
+/*=======================------------------footer-------------------============================*/
+
+.footer{
+    margin:auto;
+    width: auto;
+    border:1px solid black;
+    height: 152px;
+    box-shadow: 0 19px 38px rgba(141, 138, 138, 0.1);
+    
+    background-color: rgba(71, 70, 70, 0.1);
+    
+}
+
+.footer h2{
+
+    
+    margin: 66px;
+    padding-left: 595px;
+}
